@@ -1,0 +1,62 @@
+/*
+ *   ____                _   _             ____       _            _       _      
+ *  / ___|_ __ ___  __ _| |_(_)_   _____  |  _ \ _ __(_)_ __   ___(_)_ __ | | ___ 
+ * | |   | '__/ _ \/ _` | __| \ \ / / _ \ | |_) | '__| | '_ \ / __| | '_ \| |/ _ \
+ * | |___| | |  __/ (_| | |_| |\ V /  __/ |  __/| |  | | | | | (__| | |_) | |  __/
+ *  \____|_|  \___|\__,_|\__|_| \_/ \___| |_|   |_|  |_|_| |_|\___|_| .__/|_|\___|
+ *                                                                  |_|           
+ *   Author: Damian Scanlan | URL: www.creativeprinciple.com.au 
+ */
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+/* line 27, c:/Users/Damian/Documents/thelema.asia-test/sass/screen.scss */
+::-moz-selection {
+  background: #990000;
+  text-shadow: none;
+}
+
+/* line 32, c:/Users/Damian/Documents/thelema.asia-test/sass/screen.scss */
+::selection {
+  background: #990000;
+  text-shadow: none;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+/* line 41, c:/Users/Damian/Documents/thelema.asia-test/sass/screen.scss */
+img {
+  vertical-align: middle;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+/* line 50, c:/Users/Damian/Documents/thelema.asia-test/sass/screen.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 54, c:/Users/Damian/Documents/thelema.asia-test/sass/screen.scss */
+body {
+  background-color: #333;
+  color: #cccccc;
+}
+
+/* line 56, c:/Users/Damian/Documents/thelema.asia-test/sass/screen.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 57, c:/Users/Damian/Documents/thelema.asia-test/sass/screen.scss */
+h2 {
+  color: red;
+}
+
+/* line 58, c:/Users/Damian/Documents/thelema.asia-test/sass/screen.scss */
+h3 {
+  color: red;
+}
